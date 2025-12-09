@@ -1,0 +1,36 @@
+{
+  "name": "fabric-image-cropper",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "author": {
+    "name": "csorz",
+    "email": "csorz@qq.com"
+  },
+  "license": "MIT",
+  "description": "A simple image cropper using fabric.js",
+  "keywords": [
+    "fabric",
+    "image",
+    "cropper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csorz/fabric-image-cropper.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "fabric": "5.3.0",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8"
+  }
+}
